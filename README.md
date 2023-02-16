@@ -3,7 +3,7 @@
  Until Version 7.7, the only way to have checkbox in a CSPro application was to have items in the dictionary. This prevented application developers 
  to implement dynamic checkboxes. 
  
-This demo give us a great way to have a more dynamic "on the fly" checkboxes. Thanks to Gregory H Martin for providings CSProusers support for a better 
+This demo give us a great way to have a more dynamic "on the fly" checkboxes. Thanks to Gregory H Martin for providing CSProusers support for a better 
 understanding of HTML Dialogs inputs (https://www.csprousers.org/forum/viewtopic.php?t=5313).
 This demo app is implementing a small lib to simplify this task.
 It based on the following two functions:
@@ -17,5 +17,6 @@ This function will output a Json string following the same logic of the one that
 
 TO DO:
 i) Use the result of extractNumeric and loop it in with the array used as the argument of SelectJson and having the final string.
-ii) Cleaning the logic 
-Hope this will help!
+ii) Cleaning the logic. In the actual logic there's a double loop. However, I'm using only one. It's because I was seeking a way to use a single 
+argument name for whatever array or using an Hashmap.
+
